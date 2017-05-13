@@ -1,0 +1,39 @@
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/736x/7f/a2/dd/7fa2ddf2608877333b71c5d871224aa0.jpg);
+	font-family: Lato;
+	color: black;
+}
+
+.container {
+	background-color: #ef81d4;
+	text-align: center;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#wrapper {
+	color: blue;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+#start {
+	color: blue;
+	width: 200px;
+	font-size: 2em;
+	margin: 20px;
+}
+
+#end {
+	color: blue;
+	width: 200px;
+	font-size: 2em;
+	margin: 20px;
+}

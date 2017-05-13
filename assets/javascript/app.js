@@ -43,12 +43,12 @@ var questions = [{
 var game = {
 	correct: 0,
 	incorrect: 0,
-	counter: 12,
+	counter: 120,
 	countdown: function(){
 		game.counter--;
 		$("#counter").html(game.counter);
 		if(game.counter <= 0){
-			console.log("Time is up!");
+			console.log("<h3>Time is up!</h3>");
 			game.done();
 		}
 	},
